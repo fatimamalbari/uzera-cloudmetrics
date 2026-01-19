@@ -374,6 +374,9 @@
         cursor: pointer;
         transition: all 0.3s;
         border: 1px solid transparent;
+        color: #fff;
+        width: 100%;
+        font-size: 1rem;
       }
       .funnel-step:hover {
         border-color: #00d9ff;
@@ -1314,108 +1317,108 @@
                 <div>
                   <h4 style="color: #fff; margin-bottom: 1rem;">Signup Funnel</h4>
                   <div class="funnel-container" id="signupFunnel">
-                    <div class="funnel-step" onclick="advanceFunnel('signup', 1, this)">
+                    <button class="funnel-step" onclick="advanceFunnel('signup', 1, this)">
                       <div style="display: flex; align-items: center;">
                         <span class="step-num">1</span>
                         <span>Visit Landing</span>
                       </div>
-                    </div>
-                    <div class="funnel-step" onclick="advanceFunnel('signup', 2, this)">
+                    </button>
+                    <button class="funnel-step" onclick="advanceFunnel('signup', 2, this)">
                       <div style="display: flex; align-items: center;">
                         <span class="step-num">2</span>
                         <span>Click Signup</span>
                       </div>
-                    </div>
-                    <div class="funnel-step" onclick="advanceFunnel('signup', 3, this)">
+                    </button>
+                    <button class="funnel-step" onclick="advanceFunnel('signup', 3, this)">
                       <div style="display: flex; align-items: center;">
                         <span class="step-num">3</span>
                         <span>Enter Details</span>
                       </div>
-                    </div>
-                    <div class="funnel-step" onclick="advanceFunnel('signup', 4, this)">
+                    </button>
+                    <button class="funnel-step" onclick="advanceFunnel('signup', 4, this)">
                       <div style="display: flex; align-items: center;">
                         <span class="step-num">4</span>
                         <span>Verify Email</span>
                       </div>
-                    </div>
-                    <div class="funnel-step" onclick="advanceFunnel('signup', 5, this)">
+                    </button>
+                    <button class="funnel-step" onclick="advanceFunnel('signup', 5, this)">
                       <div style="display: flex; align-items: center;">
                         <span class="step-num">5</span>
                         <span>Complete Setup</span>
                       </div>
-                    </div>
+                    </button>
                   </div>
                   <button class="btn btn-outline" style="width: 100%; margin-top: 1rem;" onclick="resetFunnel('signup')">Reset</button>
                 </div>
                 <div>
                   <h4 style="color: #fff; margin-bottom: 1rem;">Purchase Funnel</h4>
                   <div class="funnel-container" id="purchaseFunnel">
-                    <div class="funnel-step" onclick="advanceFunnel('purchase', 1, this)">
+                    <button class="funnel-step" onclick="advanceFunnel('purchase', 1, this)">
                       <div style="display: flex; align-items: center;">
                         <span class="step-num">1</span>
                         <span>View Product</span>
                       </div>
-                    </div>
-                    <div class="funnel-step" onclick="advanceFunnel('purchase', 2, this)">
+                    </button>
+                    <button class="funnel-step" onclick="advanceFunnel('purchase', 2, this)">
                       <div style="display: flex; align-items: center;">
                         <span class="step-num">2</span>
                         <span>Add to Cart</span>
                       </div>
-                    </div>
-                    <div class="funnel-step" onclick="advanceFunnel('purchase', 3, this)">
+                    </button>
+                    <button class="funnel-step" onclick="advanceFunnel('purchase', 3, this)">
                       <div style="display: flex; align-items: center;">
                         <span class="step-num">3</span>
                         <span>Start Checkout</span>
                       </div>
-                    </div>
-                    <div class="funnel-step" onclick="advanceFunnel('purchase', 4, this)">
+                    </button>
+                    <button class="funnel-step" onclick="advanceFunnel('purchase', 4, this)">
                       <div style="display: flex; align-items: center;">
                         <span class="step-num">4</span>
                         <span>Enter Payment</span>
                       </div>
-                    </div>
-                    <div class="funnel-step" onclick="advanceFunnel('purchase', 5, this)">
+                    </button>
+                    <button class="funnel-step" onclick="advanceFunnel('purchase', 5, this)">
                       <div style="display: flex; align-items: center;">
                         <span class="step-num">5</span>
                         <span>Purchase</span>
                       </div>
-                    </div>
+                    </button>
                   </div>
                   <button class="btn btn-outline" style="width: 100%; margin-top: 1rem;" onclick="resetFunnel('purchase')">Reset</button>
                 </div>
                 <div>
                   <h4 style="color: #fff; margin-bottom: 1rem;">Onboarding Funnel</h4>
                   <div class="funnel-container" id="onboardingFunnel">
-                    <div class="funnel-step" onclick="advanceFunnel('onboarding', 1, this)">
+                    <button class="funnel-step" onclick="advanceFunnel('onboarding', 1, this)">
                       <div style="display: flex; align-items: center;">
                         <span class="step-num">1</span>
                         <span>Welcome Screen</span>
                       </div>
-                    </div>
-                    <div class="funnel-step" onclick="advanceFunnel('onboarding', 2, this)">
+                    </button>
+                    <button class="funnel-step" onclick="advanceFunnel('onboarding', 2, this)">
                       <div style="display: flex; align-items: center;">
                         <span class="step-num">2</span>
                         <span>Set Profile</span>
                       </div>
-                    </div>
-                    <div class="funnel-step" onclick="advanceFunnel('onboarding', 3, this)">
+                    </button>
+                    <button class="funnel-step" onclick="advanceFunnel('onboarding', 3, this)">
                       <div style="display: flex; align-items: center;">
                         <span class="step-num">3</span>
                         <span>Connect Data</span>
                       </div>
-                    </div>
-                    <div class="funnel-step" onclick="advanceFunnel('onboarding', 4, this)">
+                    </button>
+                    <button class="funnel-step" onclick="advanceFunnel('onboarding', 4, this)">
                       <div style="display: flex; align-items: center;">
                         <span class="step-num">4</span>
                         <span>First Report</span>
                       </div>
-                    </div>
-                    <div class="funnel-step" onclick="advanceFunnel('onboarding', 5, this)">
+                    </button>
+                    <button class="funnel-step" onclick="advanceFunnel('onboarding', 5, this)">
                       <div style="display: flex; align-items: center;">
                         <span class="step-num">5</span>
                         <span>Invite Team</span>
                       </div>
-                    </div>
+                    </button>
                   </div>
                   <button class="btn btn-outline" style="width: 100%; margin-top: 1rem;" onclick="resetFunnel('onboarding')">Reset</button>
                 </div>
