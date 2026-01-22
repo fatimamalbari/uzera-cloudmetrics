@@ -1542,16 +1542,16 @@
       // Track with Uzera
       function track(eventName, properties = {}) {
         logEvent(`EVENT: ${eventName} ${JSON.stringify(properties)}`, 'info');
-        if (window.uzera && window.uzera.trackEvent) {
-          window.uzera.trackEvent(eventName, properties);
-        }
+        // if (window.uzera && window.uzera.trackEvent) {
+        //   window.uzera.trackEvent(eventName, properties);
+        // }
       }
 
       function identify(userId, traits = {}) {
         logEvent(`IDENTIFY: ${userId}`, 'info');
-        if (window.uzera && window.uzera.identify) {
-          window.uzera.identify(userId, traits);
-        }
+        // if (window.uzera && window.uzera.identify) {
+        //   window.uzera.identify(userId, traits);
+        // }
       }
 
       // Session duration update
